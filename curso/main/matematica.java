@@ -17,6 +17,8 @@ public class matematica {
 
         System.out.println("O resultado da soma é de: " + result);
 
+        sc.close();
+
 
     }
     
