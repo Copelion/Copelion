@@ -1,4 +1,4 @@
-package main;
+package main.application;
 import java.util.Scanner;
 
 public class matematica {
@@ -12,10 +12,13 @@ public class matematica {
         a = sc.nextInt();
         System.out.println("Insira o valor de B: ");
         b = sc.nextInt();
+        int c = sc.nextInt();
 
-        result = a + b;
+
+        result = (a +b) / c;
 
         System.out.println("O resultado da soma é de: " + result);
+        System.out.println(c);
 
         sc.close();
 
